@@ -4,5 +4,7 @@ Download to vendor/google
 
 Add to device.mk:
 
-# GoogleFiles as user app
-$(call inherit-product-if-exists, vendor/google/GoogleFiles/config.mk)
+```makefile
+#GoogleFiles as user app
+    $(call inherit-product-if-exists, vendor/google/GoogleFiles/config.mk)
+```
